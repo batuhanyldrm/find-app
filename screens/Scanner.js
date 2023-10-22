@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import { Text, View, StyleSheet, Button, Linking } from "react-native";
-import BarCodeScanner from 'expo-barcode-scanner'
+import { BarCodeScanner } from "expo-barcode-scanner";
 
 const styles = StyleSheet.create({
     container: {
